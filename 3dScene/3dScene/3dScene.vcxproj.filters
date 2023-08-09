@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3D Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="texture\desk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\white.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\tvScreenTex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\sideVent.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\xboxTex.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\xBoxVent2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\xboxBack.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\tvFrameTex2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\white3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\xboxController2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\dLight2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="texture\xboxControlFront.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaderfiles\3.3.shader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\3.3.shader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\4.1.texture.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\4.1.texture.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\4.2.texture.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\4.2.texture.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\6.light_cube.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\6.light_cube.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\6.multiple_lights.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\6.multiple_lights.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\7.1.camera.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\7.1.camera.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\7.2.camera.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\7.2.camera.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\7.3.camera.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\7.3.camera.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\ColorFragmentShader.fragmentshader">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\core.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\core.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\SimpleTransform.vertexshader">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\SingleColor.fragmentshader">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaderfiles\TransformVertexShader.vertexshader">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="staticMesh3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="staticMeshIndexed3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexBufferObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

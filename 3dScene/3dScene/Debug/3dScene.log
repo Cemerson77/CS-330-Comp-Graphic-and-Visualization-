@@ -1,0 +1,11 @@
+﻿  3D Scene.cpp
+C:\Users\chris\source\repos\3dScene\3dScene\3D Scene.cpp(311,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chris\source\repos\3dScene\3dScene\3D Scene.cpp(567,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\chris\source\repos\3dScene\3dScene\3D Scene.cpp(568,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\chris\source\repos\3dScene\3dScene\3D Scene.cpp(572,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chris\source\repos\3dScene\3dScene\3D Scene.cpp(573,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chris\source\repos\3dScene\3dScene\3D Scene.cpp(575,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\chris\source\repos\3dScene\3dScene\3D Scene.cpp(576,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\chris\source\repos\3dScene\3dScene\3D Scene.cpp(583,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\chris\source\repos\3dScene\3dScene\3D Scene.cpp(663,21): warning C4018: '<': signed/unsigned mismatch
+  3dScene.vcxproj -> C:\Users\chris\source\repos\3dScene\Debug\3dScene.exe
